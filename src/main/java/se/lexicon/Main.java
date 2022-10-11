@@ -28,7 +28,7 @@ public class Main {
                 break;
             default :
                 System.out.println("Please Enter Valid Option");
-                break;
+                System.exit(0);
         }
         System.out.println("Result:"+ c);
 
